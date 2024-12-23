@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navigation Bar</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Link to External CSS -->
+  <link rel="stylesheet" href="product.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+        <div class="container-fluid">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <img src="a1 logo.jpg" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+            A-1 Uniforms
+          </a>
+          <!-- Mobile Toggler -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Navigation Links -->
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactus.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="feedback.html">Feedback</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- Header -->
+  <header class="bg-goldenrod py-3">
+    <div class="container">
+      <h1 class="text-white text-center">Our Products</h1>
+    </div>
+  </header>
+
+  <!-- Product Section -->
+  <section id="products" class="py-5">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Product List -->
+        <div class="col-md-4 col-lg-3">
+          <div class="card h-100 product-card" data-name="Shirts">
+            <img src="shirts.jpg" class="card-img-top" alt="Shirts">
+            <div class="card-body text-center">
+              <h5 class="card-title">Shirts</h5>
+              <p class="card-text">Price: <strong>Rs. 1000</strong></p>
+              <button class="btn btn-primary">Add to Cart</button>
+              <button class="btn btn-outline-secondary">Details</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-3">
+          <div class="card h-100 product-card" data-name="Skirts">
+            <img src="skirts.jpg" class="card-img-top" alt="Skirts">
+            <div class="card-body text-center">
+              <h5 class="card-title">Skirts</h5>
+              <p class="card-text">Price: <strong>Rs. 1200</strong></p>
+              <button class="btn btn-primary">Add to Cart</button>
+              <button class="btn btn-outline-secondary">Details</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-3">
+          <div class="card h-100 product-card" data-name="Frocks">
+            <img src="frock.jpg" class="card-img-top" alt="Frocks">
+            <div class="card-body text-center">
+              <h5 class="card-title">Frocks</h5>
+              <p class="card-text">Price: <strong>Rs. 1500</strong></p>
+              <button class="btn btn-primary">Add to Cart</button>
+              <button class="btn btn-outline-secondary">Details</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-3">
+          <div class="card h-100 product-card" data-name="P.T. T-shirts">
+            <img src="pt shirt.webp" class="card-img-top" alt="PT T-shirts">
+            <div class="card-body text-center">
+              <h5 class="card-title">P.T. T-shirts</h5>
+              <p class="card-text">Price: <strong>Rs. 1300</strong></p>
+              <button class="btn btn-primary">Add to Cart</button>
+              <button class="btn btn-outline-secondary">Details</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-3">
+          <div class="card h-100 product-card" data-name="P.T. Shorts">
+            <img src="pt shorts new.jpg" class="card-img-top" alt="PT Shorts">
+            <div class="card-body text-center">
+              <h5 class="card-title">P.T. Shorts</h5>
+              <p class="card-text">Price: <strong>Rs. 1000</strong></p>
+              <button class="btn btn-primary">Add to Cart</button>
+              <button class="btn btn-outline-secondary">Details</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-3">
+          <div class="card h-100 product-card" data-name="P.T. Track Pants">
+            <img src="pt track pant.jpg" class="card-img-top" alt="PT Track Pants">
+            <div class="card-body text-center">
+              <h5 class="card-title">P.T. Track Pants</h5>
+              <p class="card-text">Price: <strong>Rs. 2000</strong></p>
+              <button class="btn btn-primary">Add to Cart</button>
+              <button class="btn btn-outline-secondary">Details</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-3">
+          <div class="card h-100 product-card" data-name="Belts">
+            <img src="belt04.jpg" class="card-img-top" alt="Belts">
+            <div class="card-body text-center">
+              <h5 class="card-title">Belts</h5>
+              <p class="card-text">Price: <strong>Rs. 700</strong></p>
+              <button class="btn btn-primary">Add to Cart</button>
+              <button class="btn btn-outline-secondary">Details</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-3">
+          <div class="card h-100 product-card" data-name="Ties">
+            <img src="tie.jpg" class="card-img-top" alt="Ties">
+            <div class="card-body text-center">
+              <h5 class="card-title">Ties</h5>
+              <p class="card-text">Price: <strong>Rs. 600</strong></p>
+              <button class="btn btn-primary">Add to Cart</button>
+              <button class="btn btn-outline-secondary">Details</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-3">
+          <div class="card h-100 product-card" data-name="Logos">
+            <img src="logo.jpeg" class="card-img-top" alt="Logos">
+            <div class="card-body text-center">
+              <h5 class="card-title">Logos</h5>
+              <p class="card-text">Price: <strong>Rs. 500</strong></p>
+              <button class="btn btn-primary">Add to Cart</button>
+              <button class="btn btn-outline-secondary">Details</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-3">
+          <div class="card h-100 product-card" data-name="Socks">
+            <img src="socks02.jpg" class="card-img-top" alt="Socks">
+            <div class="card-body text-center">
+              <h5 class="card-title">Socks</h5>
+              <p class="card-text">Price: <strong>Rs. 400</strong></p>
+              <button class="btn btn-primary">Add to Cart</button>
+              <button class="btn btn-outline-secondary">Details</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- About Us Section -->
+  <section class="about-us">
+    <h2><a href="aboutus.html">About Us</a></h2>
+    <p>A1 Uniforms was founded in 2016, and since then, we have been one of the leading uniform manufacturers in the country. We supply affordable school uniforms for both boys and girls. Our team understands the unique needs of our clients, and we aim to deliver the best uniforms while ensuring customer satisfaction.</p>
+    <p>We work continuously with a creative and skilled team to provide innovative designs, superior textile quality, and perfect sizing. We are committed to offering the best results and meeting every client’s needs with utmost priority.</p>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <div class="footer-note">
+        <p>&copy; A1 Uniforms Uniform Co. All Rights Reserved. Designed & Powered by: Aptech</p>
+    </div>
+    <div class="follow-us">
+        <p>Follow Us</p>
+    </div>
+    <div class="social-media">
+        <a href="#"><img src="facbook.png" alt="Facebook"></a>
+        <a href="#"><img src="instagram.png" alt="Instagram"></a>
+        <a href="#"><img src="x.png" alt="X"></a>
+    </div>
+</footer>
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- JavaScript -->
+  <script>
+    document.querySelectorAll('.product-card').forEach(card => {
+      card.addEventListener('click', () => {
+        const productName = card.getAttribute('data-name');
+        alert('You selected: ' + productName);
+      });
+    });
+  </script>
+</body>
+</html>

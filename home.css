@@ -1,0 +1,235 @@
+/* Navbar Custom Styling */
+.custom-navbar {
+    background-color: goldenrod; /* Goldenrod background */
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .navbar-brand img {
+    margin-right: 8px;
+  }
+  
+  .nav-link {
+    font-size: 1rem;
+    color: white !important; /* White text for links */
+    padding: 0.5rem 1rem;
+  }
+  
+  .nav-link:hover {
+    color: #f1f1f1 !important; /* Lighter color on hover */
+    text-decoration: underline;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 992px) {
+    .navbar-collapse {
+      background-color: goldenrod; /* Same background for mobile menu */
+      padding: 1rem;
+    }
+  }
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+}
+
+/* Header Styles */
+header {
+    background-color: goldenrod;
+    padding: 15px ;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo-space img {
+    height: 100px;
+    width: auto;
+    border-radius: 50%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #333;
+}
+
+/* Image Slider Styles */
+.slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    width: 400%;
+    animation: slide-animation 120s infinite; /* Adjusted to make the entire animation last 40 seconds */
+}
+
+.slides img {
+    width: 25%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Welcome Section */
+.welcome-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #fff8e1;
+}
+
+.welcome-note {
+    width: 50%;
+}
+
+.welcome-note h2 {
+    font-size: 30px;
+    color: #333;
+}
+
+.sliderMain{
+    height: 50vh;
+    width: 100%;
+display: flex;
+}
+.sliderMain img{
+    
+}
+.welcome-note p {
+    font-size: 18px;
+    color: #555;
+}
+
+.image-space {
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-space img {
+    width: 100%;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.image-space:hover img {
+    transform: scale(1.1);
+}
+
+/* Products Section */
+.products {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+    justify-content: center;
+}
+
+.products h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: goldenrod;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    width: 20%;
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* About Us Section */
+.about-us {
+    padding: 40px;
+    background-color: #f4f4f4;
+    text-align: center;
+    
+}
+
+.about-us h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: goldenrod;
+    text-decoration: none;
+}
+
+.about-us p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Footer Section */
+footer {
+    background-color: goldenrod;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-note p {
+    font-size: 16px;
+    color: white;
+}
+
+.follow-us p {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-media img {
+    width: 40px;
+    height: auto;
+}
+  
